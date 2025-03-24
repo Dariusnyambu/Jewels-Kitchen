@@ -1,0 +1,85 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #f71900;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  text-shadow: #333;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.services, .food-samples, .booking {
+  padding: 20px;
+  text-align: center;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 5px 0;
+}
+
+.food-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.food-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.booking input, .booking textarea, .booking button {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+footer {
+  background: #ebd405;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .social a {
+  color: #ff0000;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
